@@ -3,7 +3,7 @@ pipeline {
 	
         stage('git clone') {
             steps {
-                git branch: 'main', credentialsId: 'jenkins-ssh', url: 'git@github.com:vbilahaniya/java_web_app.git'
+                git branch: 'main'url: 'https://github.com/manojcloudwork/java_web_app.git'
             }
         }
 		
